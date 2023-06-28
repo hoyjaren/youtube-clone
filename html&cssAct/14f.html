@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                height: 3000px;
+                font-family: arial;
+            }
+            .sidebar{
+                background-color: rgb(33, 33, 33);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .profile-picture{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .profile{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                margin-bottom: 10px;
+            }
+            .sidebar1{
+                background-color: rgb(55, 55, 55);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 70px;
+                width: 150px;
+                color: white;
+                padding-top: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                
+            }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .info{
+                color: white;
+                font-size: 14px;
+            }
+            .updates{
+                color: rgb(150, 150, 150);
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .create-new{
+                font-size: 25px;
+                color: rgba(239, 233, 233, 0.293);
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="sidebar">
+            <div class="profile-picture">
+                <div>
+                    <img class="profile" src="Activity/bae.jpg">
+                </div>
+                <div>
+                    <img class="profile" src="Activity/suzyyy.jpg">
+                </div>
+                <div>
+                    <img class="profile" src="Activity/suji.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar1">
+            <div class="header">
+                <div class="info">INFO</div>
+                <div class="create-new">&#43;</div>
+            </div>
+            <div class="updates"># new-videos</div>
+            <div class="updates"># updates</div>
+            <div class="updates"># faq</div>
+        </div>
+    </body>
+</html>
